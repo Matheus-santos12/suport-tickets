@@ -1,7 +1,7 @@
 export async function jsonHAndler(request, response) {
   const buffers = [];
 
-  for await (chunk of request) {
+  for await (const chunk of request) {
     buffers.push(chunk);
   }
 
