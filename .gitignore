@@ -1,1 +1,17 @@
+# OS
 .DS_Store
+
+# Dependências
+node_modules/
+
+# Banco de dados local (runtime state — gerado automaticamente pela aplicação)
+src/database/db.json
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
