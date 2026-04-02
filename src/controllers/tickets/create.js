@@ -9,8 +9,8 @@ export function create({ request, response, database }) {
     description,
     user_name,
     status: "open",
-    create_at: new Date(),
-    update_at: new Date(),
+    createdAt: new Date(),
+    updatedAt: new Date(),
   };
 
   database.insert("tickets", ticket);
